@@ -27,4 +27,21 @@ form input{
     padding: 1rem;
     color:#ffffff;
     background: #000000;
+    text-align:right;
+    pointer-events: none;/*makes screen unclickable*/
+}
+button{
+    width:60px;
+    height:52px;
+    font-size: 32px;
+    font-weight: 600px;
+    border-radius: 5px;
+    cursor:pointer;
+    flex: 0 0 22%;
+    margin: 5px 0;
+    border: 1px solid #000000;
+}
+.buttons{
+    padding:20px;
+
 }
