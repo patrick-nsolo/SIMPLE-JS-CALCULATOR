@@ -6,9 +6,19 @@
 body{
     min-height: 100vh;
     background: #efeff2;
+    display:flex;
+    justify-content: center;
+    align-items: center;/*aligns the calculator interface to the center of page without vertical scrollbar*/
 }
 .calculator{
     height: 500px;
     width: 300px;
-    box-shadow: 4px 4px 30px ;
+    box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.3);
+    background-color: #222222;
+    border-radius: 12px;
+    overflow: hidden;
+}
+form input{
+    width: 300px;
+    height: 150px;
 }
