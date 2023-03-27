@@ -21,4 +21,10 @@ body{
 form input{
     width: 300px;
     height: 150px;
+    border: none;
+    border-radius:12px;
+    font-size: 2rem;
+    padding: 1rem;
+    color:#ffffff;
+    background: #000000;
 }
