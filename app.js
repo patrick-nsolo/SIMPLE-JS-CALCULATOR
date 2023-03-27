@@ -3,5 +3,11 @@
     let buttons = document.querySelectorAll('.btn');
     let clear = document.querySelector('.btn-clear');
     let equal = document.querySelector('.btn-equal');
-
+    
+    buttons.forEach(function(button){
+        button.addEventListener('click', fucntion(e){
+            let value = e.target.dataset.num;
+            
+        })
+    })
 })();
