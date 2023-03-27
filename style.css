@@ -44,6 +44,14 @@ button{
 .buttons{
     display:flex;
     flex-wrap: wrap;
-
-
+    justify-content: space-between;
+    padding:20px;
+}
+.btn-yellow{
+    background-color: rgb(245,146,62);
+    color:#ffffff;
+}
+.btn-grey{
+    background-color: rgb(224,224,224);
+    
 }
