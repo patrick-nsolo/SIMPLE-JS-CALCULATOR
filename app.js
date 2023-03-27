@@ -19,5 +19,8 @@
             screen.value = answer;
         }
     })
-    
+    //function for clear button
+    clear.addEventListener('click', function(e){
+        screen.value = "";
+    })
 })();
