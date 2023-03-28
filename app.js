@@ -11,6 +11,14 @@
             screen.value += value;
         })
     });
+    //function for button calls(keyboard)
+    buttons.forEach(function(button){
+        button.addEventListener('keydown', function(e){
+            let value = e.target.dataset.num;
+            screen.value += value;
+        })
+    });
+
     //function for equal button
     equal.addEventListener('click', function(e){
         if(screen.value === ''){
