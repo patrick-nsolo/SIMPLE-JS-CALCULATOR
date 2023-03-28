@@ -31,6 +31,12 @@
     del.addEventListener('click', function(e){
         screen.value = screen.value.slice(0,-1);
     });
+    //function for delete button call(keyboard)
+    document.addEventListener('keydown', function(e){
+        if (e.key === 'Delete'){
+            screen.value = screen.value.slice(0,-1);
+        }
+    });
     //function for clear button
     clear.addEventListener('click', function(e){
         screen.value = "";
