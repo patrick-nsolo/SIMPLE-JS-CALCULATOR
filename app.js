@@ -19,14 +19,13 @@
             let answer = eval(screen.value);
             screen.value = answer;
         }
-    })
+    });
     //function for delete button
     del.addEventListener('click', function(e){
-        screen.value = 
-
-    })
+        screen.value = screen.value.slice(0,-1);
+    });
     //function for clear button
     clear.addEventListener('click', function(e){
         screen.value = "";
-    })
+    });
 })();
