@@ -3,6 +3,7 @@
     let buttons = document.querySelectorAll('.btn');
     let clear = document.querySelector('.btn-clear');
     let equal = document.querySelector('.btn-equal');
+    const del = document.querySelector('.btn-delete');
     //function for button calls
     buttons.forEach(function(button){
         button.addEventListener('click', function(e){
@@ -18,6 +19,11 @@
             let answer = eval(screen.value);
             screen.value = answer;
         }
+    })
+    //function for delete button
+    del.addEventListener('click', function(e){
+        screen.value = 
+
     })
     //function for clear button
     clear.addEventListener('click', function(e){
