@@ -12,11 +12,11 @@
         })
     });
     //function for button calls(keyboard)
-    buttons.forEach(function(button){
-        button.addEventListener('keydown', function(e){
-            let value = e.target.dataset.num;
-            screen.value += value;
-        })
+    document.addEventListener('keydown', function(e){
+        const screen = document.getElementsByClassName('.btn');
+        if (e.key >= 0 && e.key <= 9) {
+            screen.value += e.key;
+        }
     });
 
     //function for equal button
